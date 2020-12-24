@@ -1,0 +1,45 @@
+CREATE TABLE IF NOT EXISTS `alumno` (
+  `id
+
+alumno` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(60) NOT NULL,
+  `apellido_paterno` varchar(60) NOT NULL,
+  `correo` varchar(60) NOT NULL,
+  `telefono` varchar(30) NOT NULL,
+  `tutor` varchar(60) NOT NULL,
+  PRIMARY KEY (`idalumno`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=8 ;
+
+--
+-- Volcado de datos para la tabla `alumno`
+--
+
+INSERT INTO `alumno` (`idalumno`, `nombre`, `apellido_paterno`, `correo`,  `telefono`. `tutor`) VALUES
+(5, 'Desarrollos', 'PHP', 'Free', 'javilro@gmail.com');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `curso`
+--
+
+CREATE TABLE IF NOT EXISTS `curso` (
+  `idcurso` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  `descripcion` varchar(45) NOT NULL,
+  `costo_curso` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`idcurso`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Estructura de tabla para la tabla `notas`
+--
+
+CREATE TABLE IF NOT EXISTS `notas` (
+  `idnotas` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `fecha` DATE ,
+   PRIMARY KEY (`idnotas`)
+)ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5  ;
+
+   FOREIGN KEY (`idalumno`) REFERENCES `alumno` (`idalumno`) 
+   FOREIGN KEY (`idcurso`) REFERENCES `curso` (`idcurso`) hj

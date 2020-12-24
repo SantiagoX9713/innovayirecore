@@ -1,0 +1,1 @@
+INSERT INTO niveles (idNivel, NombreNivel) VALUES ( '2', 'test')

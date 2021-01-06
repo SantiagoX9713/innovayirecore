@@ -7,6 +7,6 @@ create table if not exists `pedidos` (
 `id` int not null AUTO_INCREMENT comment 'Clave primaria',
 `descripcion` text not null,
 `fechaDeRecepcion` date,
-`fechaDeEntrega` date,
+`fechaDeEntrega` date not null,
 `estado` text not null comment 'dondeSeEncuentraElPedido',
 primary key (`id`));

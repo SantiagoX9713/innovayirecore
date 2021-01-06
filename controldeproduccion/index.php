@@ -6,7 +6,7 @@
 <title>Control de Produción</title>
 </head>
 <body>
-<h2 class="header">Control de produccion</h2>
+<h2 class="header"><a href="index.php">Control de produccion</a></h2>
     <div>
             <div>  
 			    <iframe src="menu.php?Nivel=0" allowtransparency="yes" height="auto"  width="100%"  frameborder="0"></iframe>

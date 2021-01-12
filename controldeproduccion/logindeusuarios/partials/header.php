@@ -1,3 +1,3 @@
 <header>
-  <a href="/php-login">Sistema de Asistencia</a>
+  <a href="/php-login">Control de Producción</a>
 </header>

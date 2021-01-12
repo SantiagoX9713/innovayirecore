@@ -5,5 +5,5 @@
 
   session_destroy();
 
-  header('Location: ../controldeproducion/logindeusuarios/index.php');
+  header('Location: /index.php');
 ?>

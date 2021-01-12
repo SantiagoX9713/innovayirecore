@@ -1,19 +1,18 @@
-/* General */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   text-align: center;
 }
 
-/* Input Forms*/
+
 input[type="text"], input[type="password"]{
   outline: none;
   padding: 20px;
   display: block;
   width: 300px;
-  border-radius: 3px;
-  border: 1px solid #eee;
+  border: 1px solid #0098cb;
+  border-radius: 12px;
   margin: 20px auto;
 }
 
@@ -24,8 +23,9 @@ input[type="submit"] {
   width: 320px;
   margin: 20px auto;
   margin-top: 0;
-  border: 0;
-  border-radius: 3px;
+  border: 1px solid #0098cb;
+  border-radius: 12px;
+
   cursor: pointer;
 }
 input[type="submit"]:hover {

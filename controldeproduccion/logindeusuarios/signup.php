@@ -1,5 +1,5 @@
 <?php
-
+session_start();
   require 'database.php';
 
   $message = '';
@@ -22,7 +22,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>SignUp</title>
+    <title>Regístrate</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
@@ -34,8 +34,8 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>SignUp</h1>
-    <span>or <a href="login.php">Login</a></span>
+    <h1>Registro de usuario</h1>
+    <span><a href="login.php">Inicia Sesión</a></span>
 
     <form action="signup.php" method="POST">
       <input name="nombre" type="text" placeholder="Ingresa tu nombre de usuario">

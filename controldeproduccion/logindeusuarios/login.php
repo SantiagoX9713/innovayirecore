@@ -30,8 +30,8 @@
   <head>
     <meta charset="utf-8">
     <title>Login</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   </head>
   <body>
     <?php require 'partials/header.php' ?>
@@ -40,8 +40,8 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Login</h1>
-    <span>or <a href="signup.php">SignUp</a></span>
+    <h1>Inicia Sesión</h1>
+    <span>or <a href="signup.php">Regístrate</a></span>
 
     <form action="login.php" method="POST">
       <input name="nombre" type="text" placeholder="Ingresa tu nombre de usuario">

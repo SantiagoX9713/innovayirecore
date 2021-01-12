@@ -1,6 +1,8 @@
-create table if not exists `usuarios` (`id` int not null comment 'Clave primaria',
-`nombre` varchar(15) not null,
-`password` varchar(15) not null);
+drop table usuarios;
+create table if not exists `usuarios` (`id` int not null auto_increment comment 'Clave primaria',
+`nombre` varchar(150) not null,
+`password` varchar(200) not null,
+primary key (`id`));
 
 
 create table if not exists `pedidos` (

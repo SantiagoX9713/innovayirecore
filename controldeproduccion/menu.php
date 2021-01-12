@@ -10,6 +10,7 @@
             echo '<li><a href="menu.php?nivel=2">Cortadores<a><li>';
             echo '<li><a href="menu.php?nivel=3">Costureros<a><li>';
             echo '<li><a href="menu.php?nivel=4">Bordados<a><li>';
+            echo '<li><a href="../controldeproduccion/logindeusuarios/logout.php">Salir</a></li>';
             echo '</ul>';
             break;
         case 1:

@@ -1,7 +1,7 @@
 <?php
 $dbhost     = 'localhost';
-$dbuser     = 'basededatos';
-$password   = 'InnovaYire2021';
+$dbuser     = 'santiago';
+$password   = 'Santiago1!';
 $dbname     = 'innovacore';
 
 $conexion = mysqli_connect($dbhost,$dbuser,$password);
